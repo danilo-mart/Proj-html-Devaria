@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang "pt-BR">
+    <head>
+        <meta charset="utf-8" />
+        <title>Fale Conosco</title>
+    </head>
+    <body>
+        <header>
+            <h1>Fale com a Devaria através dessa página</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Professores.html"> Professores</a></li>
+                    <li><a href="FaleConosco"> Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Para entrae em contato preencha os campos abaixo e clique em enviar</h2>
+            <form action="index.html">
+                <p>
+                    <label>Nome:</label><input type="text" name="Nome" maxlength="70"/>
+                </p>
+                <p>
+                    <label>E-mail:</label><input type="text" name="Email"maxlength="150"/>
+                </p>
+                <p>
+                    <label>Comentário:</label>
+                    <textarea name= "Comentario" cols="50" rows="4 "></textarea>
+                </p>
+                <p>
+                    <label>Sexo:</label>
+                    <input type="radio" name="Sexo" /><label>Feminino</label>
+                    <input type="radio" name="Sexo" /><label>Masculino</label>
+                </p>
+                <p>
+                    <label>Onde você conheceu a Devaria?</label>
+                    <select name="Conheceu">
+                        <option selected>YouTube</option>
+                        <option selected>Google</option>
+                        <option selected>Amigos</option>                    
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" name="Aceite" value="Aceie" />
+                    <label>Aceito receber novidades da Devaria</label>
+                </p>
+                <p>
+                    <input type="Submit" name="Enviar" value="Enviar" />
+                    <input type="reset" name="limpar" value="Limpar" />
+                </p>
+            </form>
+        </main>
+        <footer>
+            <span>contato@devaria.com.br</span><br/>
+            <span>Conheça o nosso canal do YouTube</span>
+        </footer>
+    </body>    
+</html>
